@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ContainerHome</class>
+ <widget class="QWidget" name="ContainerHome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1051</width>
+    <height>752</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gender Age Detection </string>
+  </property>
+  <widget class="QFrame" name="main_page">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1051</width>
+     <height>751</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>4</number>
+   </property>
+   <widget class="QFrame" name="img_page">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1051</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>4</number>
+    </property>
+    <widget class="QLabel" name="windowslabel">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>130</y>
+       <width>640</width>
+       <height>480</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>640</width>
+       <height>480</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>640</width>
+       <height>480</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_home_video">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>350</y>
+       <width>230</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Video Face Detection</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_home_img">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>490</y>
+       <width>230</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Image Face Detection</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_home_cam">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>620</y>
+       <width>230</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>WebCam Face Detection</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="title_home">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>40</y>
+       <width>491</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Ubuntu</family>
+       <pointsize>24</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>Age Gender Detection Software</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="stop_btn">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>660</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Stop</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
