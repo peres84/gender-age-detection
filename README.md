@@ -34,8 +34,8 @@ If you use the dataset, please cite: Eran Eidinger, Roee Enbar, Tal Hassner. Age
 
 ## :books: Resources 
 
-[references](https://www.kaggle.com/manarbinowayid/age-gender-classification-project)
-[database](https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification)
+- [references](https://www.kaggle.com/manarbinowayid/age-gender-classification-project)
+- [database](https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification)
 
 
 ## :envelope: Contact
