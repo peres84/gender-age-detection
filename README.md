@@ -31,6 +31,29 @@ Each fold is described by a csv file with 12 columns:
 
 If you use the dataset, please cite: Eran Eidinger, Roee Enbar, Tal Hassner. Age and Gender Estimation of Unfiltered Faces. Transactions on Information Forensics and Security (IEEE-TIFS), special issue on Facial Biometrics in the Wild, Volume 9, Issue 12, pages 2170 - 2179, 2014.
 
+## :computer: Installation
+
+Before start We need to install the dependencies requeriments.txt and environment.yml,
+
+Some basic Git commands are:
+
+
+```
+
+#create new directory
+mkdir <folder name>
+
+#clone the repository 
+$ git init
+$ git clone https://github.com/peres84/gender-age-detection.git
+
+#setup your environment as 'cv' 
+$ conda create -f environment.yml
+
+#adding dependencies 
+$ pip install -r requirements.txt 
+
+```
 
 ## :books: Resources 
 
