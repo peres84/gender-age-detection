@@ -1,6 +1,6 @@
 # Gender and Age Detection
 
-![Alt](/img/header.png)
+![Alt](/docs/images/header.png)
 
 
 
